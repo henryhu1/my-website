@@ -7,7 +7,7 @@ import Navbar from '../Navbar'
 import { Box, Flex } from '@chakra-ui/react'
 import Footer from '../Footer'
 
-const siteTitle = 'Henry Hu | Portfolio'
+const siteTitle = 'Henry Hu | Personal'
 
 const Layout = ({ children, home = false, heightVH = false, alignCenter = false }) => {
   return (
