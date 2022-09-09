@@ -20,6 +20,7 @@ const Layout = ({ children, home = false, heightVH = false, alignCenter = false 
           content="Computer science undergraduate student at the University of Waterloo. Eager to get started on my career and experience all kinds of computer science related work. Check out my programming projects here."
         />
         <meta name="og:title" content={siteTitle} />
+        <meta name="og:url" content="https://henryhu-my-website.vercel.app/" />
         <meta
           name="og:description"
           content="Henry Hu's personal website, made using React and Next.js in Typescript, with the help of Chakra UI."
