@@ -8,7 +8,8 @@ export type IBlogTags = {
 
 export enum TagColor {
   Java = "orange",
-  Python = "blue",
+  Python = "teal",
+  React = "blue",
 };
 
 export type TagColorKeys = keyof typeof TagColor;

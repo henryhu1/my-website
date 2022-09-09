@@ -1,4 +1,11 @@
 [
+  { "name": "Personal Website",
+    "language": "React",
+    "extra": "Next.js",
+    "date": "September 2022",
+    "tag": "FirstWebsite",
+    "repoUrl": "https://github.com/henryhu1/my-website"
+  },
   { "name": "Wordle Result Tracking Discord Bot",
     "language": "Python",
     "extra": "Discord API",

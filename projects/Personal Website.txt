@@ -1,0 +1,4 @@
+On my co-ops, I had the opportunity to learn and use React to develop web applications. <br/>
+So to show a little of what I got out of it, I decided to create a website.<br/>
+Additionally, I learned about Next.js and used it in my development.<br/>
+Lastly, Chakra-UI saved me with handling the layout and styling of components.
