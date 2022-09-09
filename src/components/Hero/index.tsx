@@ -39,6 +39,7 @@ export default function SplitScreen() {
       <Flex flex={1}>
         <Image
           alt={'Image'}
+          placeholder={'blur'}
           height={'2027'}
           width={'1645'}
           src={'/images/main_image_2.jpg'}

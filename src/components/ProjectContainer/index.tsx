@@ -151,6 +151,7 @@ const ProjectContainer = ({ project }: { project: ProjectInfo }) => {
                     src={`/images/${project.name}.jpg`}
                     width={1054}
                     height={558}
+                    placeholder={'blur'}
                     alt="project screenshot"
                     objectFit="contain"
                   />

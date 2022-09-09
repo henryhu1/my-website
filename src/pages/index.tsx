@@ -66,6 +66,7 @@ const Index = () => {
                 <Flex flex={3}>
                   <Image
                     alt={'Image'}
+                    placeholder={'blur'}
                     height={'504'}
                     width={'378'}
                     src={'/images/toronto.jpg'}
@@ -92,6 +93,7 @@ const Index = () => {
                 <Flex flex={3}>
                   <Image
                     alt={'Image'}
+                    placeholder={'blur'}
                     height={'780'}
                     width={'760'}
                     src={'/images/soccer.jpg'}
@@ -113,6 +115,7 @@ const Index = () => {
                 <Flex flex={3}>
                   <Image
                     alt={'Image'}
+                    placeholder={'blur'}
                     height={'512'}
                     width={'348'}
                     src={'/images/march_break2017.jpg'}
