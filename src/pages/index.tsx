@@ -66,10 +66,11 @@ const Index = () => {
                 <Flex flex={3}>
                   <Image
                     alt={'Image'}
-                    placeholder={'blur'}
                     height={'504'}
                     width={'378'}
                     src={'/images/toronto.jpg'}
+                    placeholder={'blur'}
+                    blurDataURL={'LXKnJK_2slIW~p?GRknho}?GWA9b'}
                   />
                 </Flex>
               </HStack>
@@ -93,10 +94,11 @@ const Index = () => {
                 <Flex flex={3}>
                   <Image
                     alt={'Image'}
-                    placeholder={'blur'}
                     height={'780'}
                     width={'760'}
                     src={'/images/soccer.jpg'}
+                    placeholder={'blur'}
+                    blurDataURL={'LXKnJK_2slIW~p?GRknho}?GWA9b'}
                   />
                 </Flex>
               </HStack>
@@ -115,10 +117,11 @@ const Index = () => {
                 <Flex flex={3}>
                   <Image
                     alt={'Image'}
-                    placeholder={'blur'}
                     height={'512'}
                     width={'348'}
                     src={'/images/march_break2017.jpg'}
+                    placeholder={'blur'}
+                    blurDataURL={'LXKnJK_2slIW~p?GRknho}?GWA9b'}
                   />
                 </Flex>
               </HStack>

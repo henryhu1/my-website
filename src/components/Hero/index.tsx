@@ -39,10 +39,11 @@ export default function SplitScreen() {
       <Flex flex={1}>
         <Image
           alt={'Image'}
-          placeholder={'blur'}
           height={'2027'}
           width={'1645'}
           src={'/images/main_image_2.jpg'}
+          placeholder={'blur'}
+          blurDataURL={'LXKnJK_2slIW~p?GRknho}?GWA9b'}
         />
       </Flex>
       <Flex p={8} flex={1} align={'center'} justify={'center'}>

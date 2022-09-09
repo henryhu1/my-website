@@ -151,9 +151,10 @@ const ProjectContainer = ({ project }: { project: ProjectInfo }) => {
                     src={`/images/${project.name}.jpg`}
                     width={1054}
                     height={558}
-                    placeholder={'blur'}
                     alt="project screenshot"
                     objectFit="contain"
+                    placeholder={'blur'}
+                    blurDataURL={'LXKnJK_2slIW~p?GRknho}?GWA9b'}
                   />
                 )
                   }
