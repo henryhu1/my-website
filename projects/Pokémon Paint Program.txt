@@ -1,0 +1,3 @@
+Pokémon themed program where you draw, stamp Pokémon and save your art using a custom-made UI.<br/>
+Designed with the Python library Pygame, some features of this application includes an undo and redo function,
+a polygon tool, file saving and loading, and more.

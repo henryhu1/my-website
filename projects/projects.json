@@ -1,0 +1,52 @@
+[
+  { "name": "Wordle Result Tracking Discord Bot",
+    "language": "Python",
+    "extra": "Discord API",
+    "date": "August 2022",
+    "tag": "WordleResultDiscordBot",
+    "repoUrl": "https://github.com/henryhu1/myWordleBot"
+  },
+  { "name": "Platform Action Game",
+    "language": "Java",
+    "extra": "libGDX",
+    "date": "June 2019",
+    "tag": "PlatformActionGame",
+    "repoUrl": "https://github.com/henryhu1/platformer_game_java",
+    "youtubeUrl": "https://www.youtube.com/embed/3za3L2o1PVA",
+    "collab": {
+      "name": "Nafis Molla",
+      "url": "https://nafismolla.github.io/Portfolio/"
+    }
+  },
+  { "name": "Turn Based Arrow Game",
+    "language": "Java",
+    "extra": "libGDX",
+    "date": "December 2018",
+    "tag": "TurnBasedArrowGame",
+    "repoUrl": "https://github.com/henryhu1/arrows_java",
+    "youtubeUrl": "https://www.youtube.com/embed/Yp6Eh2nCBYs",
+    "collab": {
+      "name": "Sahan Weeratunga",
+      "url": ""
+    }
+  },
+  { "name": "Replicated Mario Level",
+    "language": "Python",
+    "extra": "Pygame",
+    "date": "June 2018",
+    "tag": "ReplicatedMarioLevel",
+    "repoUrl": "https://github.com/henryhu1/arrows_java",
+    "collab": {
+      "name": "Nafis Molla",
+      "url": "https://nafismolla.github.io/Portfolio/"
+    }
+  },
+  { "name": "Pokémon Paint Program",
+    "language": "Python",
+    "extra": "Pygame",
+    "date": "January 2018",
+    "tag": "PokemonPaintProgram",
+    "repoUrl": "https://github.com/henryhu1/paintProgram-Python",
+    "youtubeUrl": "https://www.youtube.com/embed/EFxnTDqU5nU"
+  }
+]

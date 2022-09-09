@@ -1,0 +1,3 @@
+Personal Discord bot that takes users' Wordle results and tracks records. 
+A small project I made to use Discord's Developer Portal and organize the
+competition my friends and I have playing Wordle. 

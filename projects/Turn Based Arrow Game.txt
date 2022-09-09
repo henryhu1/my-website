@@ -1,0 +1,4 @@
+Inspired by games like Worms, this is a simple, two player, turn-based game.<br/>
+Using the mouse to aim and spacebar to shoot,
+players try hitting the opponent on the other side of a randomly generated terrain. There are also
+random health restores and triple arrow power-ups that help the player if their arrow collides with said power-ups.

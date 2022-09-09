@@ -1,9 +1,9 @@
 import { Flex, FlexProps } from '@chakra-ui/react'
 
-export const Container = (props: FlexProps) => (
+const Container = (props: FlexProps) => (
   <Flex
     direction="column"
-    alignItems="center"
+    alignItems={props.alignItems}
     justifyContent="flex-start"
     bg="gray.50"
     color="black"
@@ -14,4 +14,6 @@ export const Container = (props: FlexProps) => (
     transition="all 0.15s ease-out"
     {...props}
   />
-)
+);
+
+export default Container;

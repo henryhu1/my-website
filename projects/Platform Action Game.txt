@@ -1,0 +1,4 @@
+2D side-scrolling game that incorporates projectiles and a variety of moving enemies.
+With a simple goal of moving to the right, there is also mechanical skill involved with having
+the player move while firing projectiles at enemies. At the end, the boss fires its own projectiles
+at the player and flies in random directions.<br/>Utilizing object oriented design was the purpose in creating this game.

@@ -1,0 +1,3 @@
+Low-grade replicated Mario Bros. level. Being the first attempt at programming a game, I learned
+of various topics about what goes into making a game. From sprite animation to UI feedback to
+object oriented design, this is my starting point in game development.
