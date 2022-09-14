@@ -1,7 +1,6 @@
 import NextLink from 'next/link'
 import React, { ReactNode } from 'react'
 import {
-  Button,
   IconButton,
   Box,
   CloseButton,
@@ -9,14 +8,10 @@ import {
   Grid,
   GridItem,
   useColorModeValue,
-  Link as ChakraLink,
   Drawer,
   DrawerContent,
   Text,
   useDisclosure,
-  BoxProps,
-  FlexProps,
-  Divider,
 } from '@chakra-ui/react'
 import { ArrowBackIcon, HamburgerIcon } from '@chakra-ui/icons'
 

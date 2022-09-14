@@ -1,6 +1,5 @@
 import fs from 'fs'
 import path from 'path'
-import { IconType } from 'react-icons/lib'
 
 const projectsDirectory = path.join(process.cwd(), 'projects');
 

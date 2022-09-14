@@ -1,18 +1,5 @@
 import { GetStaticProps } from 'next'
-import {
-  Box,
-  HStack,
-  Grid,
-  GridItem,
-  Flex,
-  Tabs,
-  TabList,
-  Tab,
-  TabPanels,
-  TabPanel,
-  Spacer,
-  Heading,
-} from '@chakra-ui/react'
+import { Flex } from '@chakra-ui/react'
 import { getProjects, ProjectInfo } from '../../../lib/projects'
 
 import Layout from '../../components/Layout'

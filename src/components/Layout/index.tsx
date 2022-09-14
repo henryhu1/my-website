@@ -4,7 +4,7 @@ import Container from '../Container'
 import Hero from '../Hero'
 import DarkModeSwitch from '../DarkModeSwitch'
 import Navbar from '../Navbar'
-import { Box, Flex } from '@chakra-ui/react'
+import { Flex } from '@chakra-ui/react'
 import Footer from '../Footer'
 
 const siteTitle = 'Henry Hu | Personal'

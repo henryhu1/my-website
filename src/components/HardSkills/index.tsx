@@ -1,27 +1,23 @@
 import { useRef } from 'react'
-import handleViewport, { useInViewport } from 'react-in-viewport'
 
-import { HStack, Tag, TagLabel } from '@chakra-ui/react'
+import { HStack, SlideFade, Tag, TagLabel } from '@chakra-ui/react'
 
-const HardSkills = ({ skill }: { skill: string }) => {
-  // const something = (inViewport) => {
-  //   console.log(inViewport);
-  //   return (
-  //     <HStack>
-  //       <Tag
-  //         size={'lg'}
-  //         borderRadius='full'
-  //         variant='solid'
-  //         colorScheme='green'
-  //       >
-  //         <TagLabel>{skill}</TagLabel>
-  //       </Tag>
-  //     </HStack>
-  //   );
-  // };
-  // const Item = handleViewport(something);
+import useIsInViewport from '../utils'
+
+const HardSkills = (
+  { skill, enterDuration }: { skill: string, enterDuration: number }
+) => {
+  const ref = useRef(null);
+  const isInViewport = useIsInViewport(ref);
   return (
-    <>
+    <SlideFade
+      transition={{
+        enter: { duration: enterDuration },
+        exit: { duration: 0.1 },
+      }}
+      ref={ref}
+      in={isInViewport}
+    >
       <HStack>
         <div>
           <Tag
@@ -34,8 +30,7 @@ const HardSkills = ({ skill }: { skill: string }) => {
           </Tag>
         </div>
       </HStack>
-      {/* <Item onEnterViewport={() => console.log('here')}/> */}
-    </>
+    </SlideFade>
   );
 };
 

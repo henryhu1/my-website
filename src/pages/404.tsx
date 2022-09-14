@@ -11,7 +11,6 @@ import {
 import { ArrowBackIcon } from '@chakra-ui/icons'
 
 import Layout from '../components/Layout'
-import Main from '../components/Main'
 
 const Custom404 = () => {
   return (
